@@ -1,0 +1,414 @@
+@media (max-width: 1300px) {
+    .slogan-1 {
+        font-size: 1.8rem;
+    }
+    .slogan-2 {
+        font-size: 1.3rem;
+    }
+    #header ul li a{
+        display: none;
+    }
+    #footer ul li a{
+        display: none;
+    }
+    .copy{
+        bottom: 19px;
+        right: 25px;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+    .subtitle, .subtitle1 {
+        font-size: 1.4rem;
+    }
+    .paragrafo {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #slogan-text {
+        width: 90%; /* O texto ocupa toda a largura disponível */
+        padding: 10px;
+    }
+    .slogan-1, .slogan-2 {
+        font-size: 13px;
+        width: 100%;
+    }
+    .title {
+        font-size: 1.6rem;
+    }
+    .subtitle, .subtitle1 {
+        font-size: 1.2rem;
+    }
+    .paragrafo {
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    #banner01{
+        height: 90vh;
+    }
+    #lofi-clip{
+        height: 114.5vh;
+    }
+    .slogan-1, .slogan-2 {
+        font-size: 1rem;
+        text-decoration: none; /* Texto menor para telas pequenas */
+    }
+    .slogan-2{
+        font-size: 0.55rem;
+    }
+    .video-c {
+        object-fit: cover; /* Ajusta o vídeo para caber sem cortar */
+    }
+    .txt-us {
+        padding: 5px; /* Reduz o padding para economizar espaço */
+    }
+    .title {
+        font-size: 1.2rem; /* Título ainda legível em telas menores */
+    }
+    .subtitle, .subtitle1 {
+        font-size: 0.9rem; /* Ajusta os subtítulos para telas muito pequenas */
+    }
+    .paragrafo {
+        font-size: 0.8rem; /* Texto dos parágrafos menor, mas ainda legível */
+        margin-bottom: 15px; /* Reduz o espaçamento vertical entre parágrafos */
+    }
+    .img-corner img{
+        max-height: 100px;
+        max-width: 100px;
+        left: -20px;
+    }
+    .img-corner1 img{
+        max-height: 100px;
+        max-width: 100px;
+        left: -20px;
+    }
+    .header-logo a img{
+        width: 100px;
+        top: 15px;
+    }
+    .btn-contact{
+        width: 90px;
+    }
+    .btn-contact:before{
+        width: 100px;
+    }
+    #banner02{
+        flex-direction: column;
+        height: 200vh;
+    }
+    #banner02 p{
+        color: #00dbde;
+        text-decoration: underline;
+    }
+    .card{
+        margin: 50px;
+        width: 300px;
+        height: 340px;
+        font-size: small;
+    }
+    .title-service{
+        position: absolute;
+        top: -50px;
+        left: 20px;
+        width: auto;
+        height: auto;
+    }
+    .title-service h1{
+        font-size: 0.80rem;
+        padding: 5px;
+    }
+    .card h1{
+        font-size: 0.90rem;
+    }
+    .card ul li{
+        color:lavenderblush;
+        text-shadow: none;
+    }
+    .footer-social{
+        position: absolute;
+        right: 19px;
+        bottom: 50px;
+    }
+    .footer-social i{
+        font-size: 20px;
+    }
+}
+@media (max-width: 390px) {
+    #banner01{
+        height: 90vh;
+    }
+    #lofi-clip{
+        height: 114.5vh;
+    }
+    .slogan-1, .slogan-2 {
+        font-size: 1rem;
+        text-decoration: none; /* Texto menor para telas pequenas */
+    }
+    .slogan-2{
+        font-size: 0.55rem;
+    }
+    .video-c {
+        object-fit: cover; /* Ajusta o vídeo para caber sem cortar */
+    }
+    .txt-us {
+        padding: 5px; /* Reduz o padding para economizar espaço */
+    }
+    .title {
+        font-size: 1.2rem; /* Título ainda legível em telas menores */
+    }
+    .subtitle, .subtitle1 {
+        font-size: 0.9rem; /* Ajusta os subtítulos para telas muito pequenas */
+    }
+    .paragrafo {
+        font-size: 0.8rem; /* Texto dos parágrafos menor, mas ainda legível */
+        margin-bottom: 15px; /* Reduz o espaçamento vertical entre parágrafos */
+    }
+    .img-corner img{
+        max-height: 100px;
+        max-width: 100px;
+        left: -20px;
+    }
+    .img-corner1 img{
+        max-height: 100px;
+        max-width: 100px;
+        left: -20px;
+    }
+    .header-logo a img{
+        width: 100px;
+        top: 15px;
+    }
+    .btn-contact{
+        width: 90px;
+    }
+    .btn-contact:before{
+        width: 100px;
+    }
+    #banner02{
+        flex-direction: column;
+        height: 200vh;
+    }
+    #banner02 p{
+        color: #00dbde;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 5px;
+    }
+    .card{
+        margin: 50px;
+        width: 300px;
+        height: 340px;
+        font-size: small;
+    }
+    .title-service{
+        position: absolute;
+        top: -50px;
+        left: 20px;
+        width: auto;
+        height: auto;
+    }
+    .title-service h1{
+        font-size: 0.80rem;
+        padding: 5px;
+    }
+    .card h1{
+        font-size: 0.90rem;
+    }
+    .card ul li{
+        color:lavenderblush;
+        text-shadow: none;
+    }
+    .footer-social{
+        position: absolute;
+        right: 19px;
+        bottom: 50px;
+    }
+    .footer-social i{
+        font-size: 20px;
+    }
+}
+@media (max-width: 375px) {
+    #banner01{
+        height: 90vh;
+    }
+    #lofi-clip{
+        height: 114.5vh;
+    }
+    .slogan-1, .slogan-2 {
+        font-size: 1rem;
+        text-decoration: none; /* Texto menor para telas pequenas */
+    }
+    .slogan-2{
+        font-size: 0.55rem;
+    }
+    .video-c {
+        object-fit: cover; /* Ajusta o vídeo para caber sem cortar */
+    }
+    .txt-us {
+        padding: 5px; /* Reduz o padding para economizar espaço */
+    }
+    .title {
+        font-size: 1.2rem; /* Título ainda legível em telas menores */
+    }
+    .subtitle, .subtitle1 {
+        font-size: 0.9rem; /* Ajusta os subtítulos para telas muito pequenas */
+    }
+    .paragrafo {
+        font-size: 0.8rem; /* Texto dos parágrafos menor, mas ainda legível */
+        margin-bottom: 15px; /* Reduz o espaçamento vertical entre parágrafos */
+    }
+    .img-corner img{
+        max-height: 100px;
+        max-width: 100px;
+        left: -20px;
+    }
+    .img-corner1 img{
+        max-height: 100px;
+        max-width: 100px;
+        left: -20px;
+    }
+    .header-logo a img{
+        width: 100px;
+        top: 15px;
+    }
+    .btn-contact{
+        width: 90px;
+    }
+    .btn-contact:before{
+        width: 100px;
+    }
+    #banner02{
+        flex-direction: column;
+        height: 200vh;
+    }
+    #banner02 p{
+        color: #00dbde;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 30px;
+    }
+    .card{
+        margin: 50px;
+        width: 300px;
+        height: 340px;
+        font-size: small;
+    }
+    .title-service{
+        position: absolute;
+        top: -50px;
+        left: 20px;
+        width: auto;
+        height: auto;
+    }
+    .title-service h1{
+        font-size: 0.80rem;
+        padding: 5px;
+        top: 70px;
+    }
+    .card h1{
+        font-size: 0.90rem;
+    }
+    .card ul li{
+        color:lavenderblush;
+        text-shadow: none;
+    }
+    .footer-social{
+        position: absolute;
+        right: 19px;
+        bottom: 50px;
+    }
+    .footer-social i{
+        font-size: 20px;
+    }
+}
+@media (max-width: 428px) {
+    #banner01{
+        height: 90vh;
+    }
+    #lofi-clip{
+        height: 114.5vh;
+    }
+    .slogan-1, .slogan-2 {
+        font-size: 1rem;
+        text-decoration: none; /* Texto menor para telas pequenas */
+    }
+    .slogan-2{
+        font-size: 0.55rem;
+    }
+    .video-c {
+        object-fit: cover; /* Ajusta o vídeo para caber sem cortar */
+    }
+    .txt-us {
+        padding: 5px; /* Reduz o padding para economizar espaço */
+    }
+    .title {
+        font-size: 1.2rem; /* Título ainda legível em telas menores */
+    }
+    .subtitle, .subtitle1 {
+        font-size: 0.9rem; /* Ajusta os subtítulos para telas muito pequenas */
+    }
+    .paragrafo {
+        font-size: 0.8rem; /* Texto dos parágrafos menor, mas ainda legível */
+        margin-bottom: 15px; /* Reduz o espaçamento vertical entre parágrafos */
+    }
+    .img-corner img{
+        max-height: 100px;
+        max-width: 100px;
+        left: -20px;
+    }
+    .img-corner1 img{
+        max-height: 100px;
+        max-width: 100px;
+        left: -20px;
+    }
+    .header-logo a img{
+        width: 100px;
+        top: 15px;
+    }
+    .btn-contact{
+        width: 90px;
+    }
+    .btn-contact:before{
+        width: 100px;
+    }
+    #banner02{
+        flex-direction: column;
+        height: 200vh;
+    }
+    .card{
+        margin: 50px;
+        width: 300px;
+        height: 340px;
+        font-size: small;
+    }
+    .title-service{
+        position: absolute;
+        top: -50px;
+        left: 20px;
+        width: auto;
+        height: auto;
+    }
+    .title-service h1{
+        font-size: 0.80rem;
+        padding: 5px;
+    }
+    .card h1{
+        font-size: 0.90rem;
+    }
+    .card ul li{
+        color:lavenderblush;
+        text-shadow: none;
+    }
+    .footer-social{
+        position: absolute;
+        right: 19px;
+        bottom: 50px;
+    }
+    .footer-social i{
+        font-size: 20px;
+    }
+}

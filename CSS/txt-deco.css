@@ -1,0 +1,124 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.slogan-1{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    animation: fadein 3.5s ease-in-out;
+    margin-bottom: 30px;
+    text-shadow: 1px 3px 5px purple, 0 0 1em #00dbde, 0 0 0.2em rgb(8, 8, 180);
+}
+
+.slogan-2{
+    font-size: 1.5rem;
+    width: 200vh;
+    text-align: center;
+    color: #ffffff;
+    animation: fadein 3.5s ease-in-out;
+    text-shadow: 1px 3px 5px purple, 0 0 1em #00dbde, 0 0 0.2em rgb(8, 8, 180);
+    text-decoration: overline;
+}
+.txt-us{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-style: 2rem;
+    text-align: center;
+}
+.subtitle{
+    margin-bottom: 30px;
+    max-width: 90%;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.subtitle1{
+    font-style: italic;
+    margin-bottom: 30px;
+    max-width: 90%;
+    color: #00dbde;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: overline;
+}
+.paragrafo{
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 90%;
+    font-family: "Urbanist", serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.paragrafo span{
+    color: #00dbde;
+    text-decoration: underline;
+}
+.title-service{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-service h1{
+    position: absolute;
+    width: 1000px;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+.card h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    text-shadow: black 5px 10px 10px;
+    color: #00dbde;
+}
+.card ul li{
+    margin: 30px 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: #00dbde 5px 10px 10px;
+}
+.card ul a{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.card ul a:hover{
+    transform: translateY(-3px);
+    color: #00dbde;
+    text-decoration: underline;
+}
